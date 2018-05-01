@@ -129,6 +129,12 @@
     pretty-ms "^0.2.1"
     text-table "^0.2.0"
 
+"@prodo-ai/eslint-plugin-prodo@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@prodo-ai/eslint-plugin-prodo/-/eslint-plugin-prodo-1.0.0.tgz#2e05c3447d168ced9578316cd33cc91674e4f420"
+  dependencies:
+    requireindex "~1.1.0"
+
 "@prodo-ai/js-timing@^1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@prodo-ai/js-timing/-/js-timing-1.0.3.tgz#1d6be9cd9fb219940cedd81c5e49807f438fcf88"
@@ -3113,6 +3119,10 @@ require-uncached@^1.0.3:
   dependencies:
     caller-path "^0.1.0"
     resolve-from "^1.0.0"
+
+requireindex@~1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/requireindex/-/requireindex-1.1.0.tgz#e5404b81557ef75db6e49c5a72004893fe03e162"
 
 resolve-cwd@^2.0.0:
   version "2.0.0"
