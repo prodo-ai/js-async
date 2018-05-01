@@ -2,8 +2,8 @@
 
 import type {KeepTryingParams} from "./types";
 
-import {MILLISECONDS} from "@prodo-ai/js-timing";
 import {tryAgain} from "./try-again";
+import {MILLISECONDS} from "@prodo-ai/js-timing";
 
 export function keepTrying<T>({
   behaviour,

@@ -17,7 +17,7 @@
     "babel",
     "flowtype",
     "prettier",
-    "prodo"
+    "@prodo-ai"
   ],
   "extends": [
     "prettier"
@@ -27,7 +27,7 @@
       "bracketSpacing": false,
       "trailingComma": "all"
     }],
-    "prodo/sort-imports-by-path": ["error", {
+    "@prodo-ai/sort-imports-by-path": ["error", {
       "sortOrder": ["type", "named", "unnamed"],
       "enforceBlankLine": true,
       "enforceTrailingLine": true,
