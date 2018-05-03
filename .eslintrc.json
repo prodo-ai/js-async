@@ -16,8 +16,7 @@
   "plugins": [
     "babel",
     "flowtype",
-    "prettier",
-    "@prodo-ai"
+    "prettier"
   ],
   "extends": [
     "prettier"
@@ -26,12 +25,6 @@
     "prettier/prettier": ["error", {
       "bracketSpacing": false,
       "trailingComma": "all"
-    }],
-    "@prodo-ai/sort-imports-by-path": ["error", {
-      "sortOrder": ["type", "named", "unnamed"],
-      "enforceBlankLine": true,
-      "enforceTrailingLine": true,
-      "ignoreCase": true
     }],
     "eqeqeq": ["error", "smart"],
     "no-await-in-loop": "error",
